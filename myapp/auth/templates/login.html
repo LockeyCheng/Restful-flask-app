@@ -1,0 +1,7 @@
+{% if name %}
+  {% for item in name %}
+  <h1>Hello {{ item }}!</h1>
+  {% endfor %}
+{% else %}
+  <h1>Hello World!</h1>
+{% endif %}
